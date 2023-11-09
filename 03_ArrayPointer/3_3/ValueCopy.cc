@@ -8,7 +8,8 @@ void f(int v)
 int main()
 {
     int a = 2;
-    std::cout << &a << '\n';
+    std::cout << "variable " << a << '\n';
+    std::cout << "adresse " << &a << '\n';
 
     f(a);
 
