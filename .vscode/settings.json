@@ -241,14 +241,14 @@
   "C_Cpp.configurationWarnings": "disabled",
   "C_Cpp_Config.aggressiveSettings": false,
   "C_Cpp_Config.lineLength": 120,
-  "C_Cpp_Runner.cppStandard": "c++23",
-  "C_Cpp_Runner.cStandard": "c11",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
-  "C_Cpp_Runner.useMsvc": true,
+  "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",
     "-Wextra",
@@ -276,9 +276,7 @@
     "/w44265",
     "/w14928"
   ],
-  "C_Cpp_Runner.compilerArgs": [
-    "/openmp"
-  ],
+  "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [],
   "C_Cpp_Runner.includeSearch": [
@@ -316,6 +314,6 @@
   "doxdocgen.generic.returnTemplate": "@return",
   "doxdocgen.generic.includeTypeAtReturn": false,
   "C_Cpp_Runner.msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/vcvarsall.bat",
-  "C_Cpp_Runner.msvcSecureNoWarnings": true,
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "C_Cpp_Runner.msvcSecureNoWarnings'": false
 }
